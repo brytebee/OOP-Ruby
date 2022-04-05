@@ -6,12 +6,8 @@ class Animal
     @type = type
   end
 
-  def speak(animal)
-    if @type == "dog"
-      "Woof, woof"
-    elsif @type == "spider"
-      "..."
-    end
+  def speak
+    "grrrr"
   end
 
   def id
