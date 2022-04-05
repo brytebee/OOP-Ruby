@@ -6,8 +6,12 @@ class Animal
     @type = type
   end
 
-  def speak
-    "Bla bla bla"
+  def speak(animal)
+    if animal.type == "dog"
+      "Woof, woof"
+    elsif animal.type == "spider"
+      "..."
+    end
   end
 
   def id
@@ -35,4 +39,4 @@ animal_1 = Animal.new("Rex", 8)
 
 p animal_1.id
 p animal_1.name
-p animal_1.number_of_legs
+p animal_1.type
