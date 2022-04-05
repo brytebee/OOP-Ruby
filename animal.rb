@@ -1,4 +1,5 @@
 require "./remover.rb"
+require "./foods.rb"
 
 class Animal
   def initialize(type, number_of_legs, name = 'Unknown')
@@ -22,6 +23,10 @@ class Animal
 
   def number_of_legs
     @number_of_legs
+  end
+
+  def likes_food?(food)
+    @liked_food.is_liked?(food)
   end
 
   def name
