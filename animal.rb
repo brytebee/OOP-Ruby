@@ -7,9 +7,9 @@ class Animal
   end
 
   def speak(animal)
-    if animal.type == "dog"
+    if @type == "dog"
       "Woof, woof"
-    elsif animal.type == "spider"
+    elsif @type == "spider"
       "..."
     end
   end
