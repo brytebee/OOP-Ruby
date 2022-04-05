@@ -9,6 +9,26 @@ class Animal
   def speak
     "Bla bla bla"
   end
+
+  def id
+    @id
+  end
+
+  def type
+    @type
+  end
+
+  def number_of_legs
+    @number_of_legs
+  end
+
+  def name
+    @name
+  end
+
+  def name=(value)
+    @name = value
+  end
 end
 
 animal_1 = Animal.new("Rex", 8)
