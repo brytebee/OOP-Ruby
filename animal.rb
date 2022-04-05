@@ -7,6 +7,7 @@ class Animal
     @name = name
     @number_of_legs = number_of_legs
     @type = type
+    @liked_food = NoFood.new()
   end
 
   def speak
